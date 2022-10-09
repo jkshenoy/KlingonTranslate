@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #dc2626;
+  --border-color: #111827;
+  --secondary-color: black;
+  --width-break: 600px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+.nav-heading {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2.5rem;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+  text-align: center;
+}
+
+#header-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  font-size: large;
+  border: dashed var(--border-color);
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.btn {
+  text-align: center;
+}
+
+#btn-translate {
+  background-color: var(--secondary-color);
+  margin-right: 1rem;
+  display: inline;
+  border: 2px solid var(--border-color);
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  width: 100px;
+  min-height: 6vh;
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+#btn-clear {
+  background-color: var(--secondary-color);
+  display: inline;
+  border: 2px solid var(--border-color);
+  cursor: pointer;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  width: 100px;
+  min-height: 6vh;
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 20vh;
+  overflow: scroll;
+  border: dashed var(--border-color);
+  padding: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  font-size: large;
+  border-top-right-radius: 80px 80px;
+  border-top-left-radius: 80px 80px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#footer-funfact {
+  font-weight: bold;
+}
+
+#footer-details {
+  margin-bottom: 1rem;
+}
+
+.footer-list {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
